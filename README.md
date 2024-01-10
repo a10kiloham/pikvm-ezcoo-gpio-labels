@@ -1,7 +1,7 @@
 # pikvm-ezcoo-gpio-labels
-Fix proper labeling for Ezcoo 4-way HDMI splitter on a PiKVM
+Fix proper labeling for Ezcoo 4-way HDMI splitter on a PiKVM (model ‎EZ-SW41HA-KVMU3L but presumably other 4-port models work as well.)
 
-With the EzCoo 4-way splitter the labels don't seem to populate properly with the default instructions. Here's a working config
+With the EzCoo 4-way splitter the labels don't seem to populate properly with the default instructions. Here's a working config tested in configuration with the generic Geekworm KVM-A3 Kit for Raspberry Pi 4 Open Source KVM Over IP (from Amazon.co.uk). Works great!
 
 File: /etc/kvmd/override.conf
 ```
